@@ -1,0 +1,43 @@
+.userinfocontainer {
+    width: calc(508px - 84px);
+    height: calc(165px- 48px);
+    border-radius: 20px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0) -8.38%, #ffffff 100%);
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    box-shadow: 0px 4px 84px -40px #9da7fb66;
+    background: white;
+padding-top: 24px;
+padding-right: 52px;
+padding-bottom: 24px;
+padding-left: 32px;
+}
+
+
+
+
+.profilpic {
+    width: 107px;
+    height: 107px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.nameProfile {
+    font-family: Inter;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 22px;
+    text-align: left;
+}
+
+.longerCreate {
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    color: #707070;
+}
+
+

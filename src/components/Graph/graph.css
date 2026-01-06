@@ -1,0 +1,181 @@
+.headerKm {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.headerKmData {
+    display: flex;
+    flex-direction: column;
+}
+
+.recharts-default-legend {
+    display: flex !important;
+    flex-direction: row !important;
+    width: 100%;
+}
+
+.changedate {
+    display: flex;
+    align-items: center;
+    min-width: 160px;
+    gap: 10px;
+}
+
+.headerKmData p {
+    font-family: Inter;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.headerKmData span {
+    font-family: Inter;
+    font-weight: 400;
+    text-align: left;
+    font-size: 12px;
+    color: #707070;
+    line-height: 100%;
+    letter-spacing: 0px;
+}
+
+/**graphKm**/
+.mainCardGraph {
+    width: 365px;
+    background-color: white;
+    border-radius: 10px;
+    height: 444px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 16px;
+    padding-right: 40px;
+    padding-bottom: 24px;
+    padding-left: 40px;
+}
+.monthchart {
+    min-height: 0px;
+    min-width: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+/**/
+.pickerDate {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.carda {
+    background-color: white;
+    border-radius: 10px;
+    width: 503px;
+    height: 444px;
+    padding-top: 16px;
+    padding-right: 40px;
+    padding-bottom: 24px;
+    padding-left: 40px;
+    border-radius: 10px;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.orange {
+    color: #f4320b;
+}
+.blue {
+    color: #0b23f4;
+}
+
+/*Objectif*/
+
+.CardObjectif {
+    width: 512px;
+    height: 63px;
+    border-radius: 10px;
+    background-color: white;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    gap: 19px;
+    display: flex;
+    flex-direction: column;
+}
+
+.CardContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cardObjectifGraph {
+    width: 378px;
+    height: 310px;
+    padding-top: 16px;
+    padding-right: 38px;
+    padding-bottom: 32px;
+    padding-left: 38px;
+    gap: 16px;
+    background-color: white;
+    opacity: 1;
+    border-radius: 10px;
+}
+
+.ContainerObjectif {
+    display: flex;
+    justify-content: space-between;
+}
+
+.titlecardobjectif {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 14px;
+    color: #707070;
+    text-align: left;
+}
+
+.objectifdata {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 22px;
+    text-align: left;
+}
+
+.objectifdataMetrique {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+}
+.blueLight {
+    color: #b6bdfc;
+}
+.orangeLight {
+    color: #fcc1b6;
+}
+
+.objectifNb {
+    font-family: Inter;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 28px;
+}
+
+.objectifSuite {
+    font-family: Inter;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+}
+
+.headerObjectif {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+}

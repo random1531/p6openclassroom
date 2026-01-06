@@ -1,0 +1,45 @@
+.left {
+    width: 44%;
+    height: 100%;
+    background-color: #f2f3ff;
+    backdrop-filter: blur(74px);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right {
+    width: 56%;
+    height: 99vh;
+    position: relative;
+}
+
+.logologin {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+.login {
+    display: flex;
+    max-width: 1440px;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.bulleLogin {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    color: #0b23f4;
+    width: calc(288px - 32px);
+    height: calc(62px - 32px);
+    gap: 10px;
+    position: absolute;
+    border-radius: 50px;
+    bottom: 20px;
+    right: 20px;
+    padding: 16px;
+    background-color: #ffffff;
+}

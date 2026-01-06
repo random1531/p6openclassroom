@@ -1,0 +1,44 @@
+.profilemaincontenaire{
+    display: flex;
+    gap: 57px;
+    margin-top: 108px;
+}
+
+.cardprofilecontainer{
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+.userdetailscontainer{
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+.headprofilcard{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.cardContainers{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 19px;
+
+}
+
+.headprofilcard p{
+    font-family: Inter;
+font-weight: 400;
+font-style: Regular;
+font-size: 14px;
+color: #707070;
+}
+
+.headprofilcard h3{
+    font-family: Inter;
+font-weight: 500;
+font-style: Medium;
+font-size: 22px;
+color: #111111;
+
+}

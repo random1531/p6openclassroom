@@ -1,0 +1,31 @@
+footer {
+    width: calc(100% - 200px);
+    height: calc(41px - 20px);
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+    padding-left: 100px;
+    background-color: #FFFFFF;
+   margin-top: 108px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   font-family: Inter;
+font-weight: 400;
+font-size: 14px;
+
+
+}
+
+.rightfooter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 17px;
+}
+
+.rightfooter img{
+    width: 20px;
+    height: 20px;
+}

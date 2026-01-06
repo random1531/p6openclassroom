@@ -1,0 +1,29 @@
+#root {
+  max-width: 1440px;
+  margin: auto;
+  text-align: center;
+ 
+}
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+body{
+  background-color: #F2F3FF;
+}
+main{
+  max-width: 1140px;
+  display: flex;
+  margin: auto;
+  width: 100%;
+  flex-direction: column;
+}
+
+.arrow{
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    fill: #717171;
+}

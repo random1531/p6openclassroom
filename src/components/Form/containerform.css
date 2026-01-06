@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    max-width: 398px;
+    max-height: 617px;
+    height: calc(60% - 20px);
+    width: calc(63% - 20px);
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-bottom: 80px;
+    padding-left: 40px;
+    gap: 40px;
+    border-radius: 20px;
+}
+
+.titlelogin {
+    font-family: Inter;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 28px;
+    color: #0b23f4;
+    backdrop-filter: blur(99.89820861816406px);
+    text-align: left;
+}
+.missedpassword {
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    text-align: left;
+    color: #111111;
+}

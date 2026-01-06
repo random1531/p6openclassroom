@@ -1,0 +1,80 @@
+.profilpic {
+    width: 107px;
+    height: 107px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.nameProfile {
+    font-family: Inter;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.longerCreate {
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    color: #707070;
+}
+
+.userinfocontainers {
+    width: calc(100% - 104px);
+    height: calc(165px - 64px);
+    border-radius: 20px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0) -8.38%, #ffffff 100%);
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-top: 32px;
+    padding-right: 52px;
+    padding-bottom: 32px;
+    padding-left: 52px;
+    justify-content: space-between;
+}
+
+.leftpart {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 38px;
+}
+
+.rightpart {
+    display: flex;
+    gap: 18px;
+    align-items: center;
+    justify-content: center;
+}
+
+.distancehead {
+    width: 183px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    border-radius: 10px;
+    border-width: 1px;
+    background-color: #0b23f4;
+    color: #ffffff;
+    font-family: Inter;
+font-weight: 500;
+font-size: 22px;
+
+
+}
+
+.light{
+    color: #707070;
+    font-family: Inter;
+font-weight: 400;
+font-size: 14px;
+}

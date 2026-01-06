@@ -1,0 +1,11 @@
+.logo{
+    width: 157px;
+    height: 23px;
+    object-fit: cover;
+}
+
+.loginPicture{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

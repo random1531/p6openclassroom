@@ -1,0 +1,50 @@
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.inputform {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputform label {
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    color: #707070;
+    text-align: left;
+}
+
+.inputform input {
+    width: 100%;
+    height: 58px;
+    border-radius: 10px;
+    border-width: 0.5px;
+
+    border: 0.5px solid var(--Tokens-Border-Secondary, #717171);
+}
+
+.btnsubmit {
+    width: 100%;
+    height: 51px;
+    padding-top: 16px;
+    padding-right: 40px;
+    padding-bottom: 16px;
+    padding-left: 40px;
+    gap: 10px;
+    border-radius: 10px;
+    background-color: #0b23f4;
+    color: white;
+}
+
+.headerform {
+    font-family: Inter;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 22px;
+    text-align: left;
+    color: black;
+}
