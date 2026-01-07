@@ -25,31 +25,6 @@ export default function Objectif() {
     },
   ];
 
-
-  const renderLegend = () => (
-    <ul style={{ listStyle: "none", padding: 0, margin: 0,display:"flex" }}>
-      {dataPie.map((entry, index) => (
-        <li
-          key={`legend-${index}`}
-          style={{ display: "flex", alignItems: "center", marginBottom: 0 }}
-        >
-          <span
-            style={{
-              display: "inline-block",
-              width: 12,
-              height: 12,
-              background: entry.color,
-              borderRadius: "50%",
-              marginRight: 8,
-            }}
-          ></span>
-          {entry.value} {entry.a}
-        </li>
-      ))}
-    </ul>
-  );
-
-
  const renderCustomLabel = ({
   cx,
   cy,
@@ -118,7 +93,7 @@ export default function Objectif() {
               <Cell key={`cell-${index}`} fill={entry.color} />
             ))}
           </Pie>
-          <Legend content={renderLegend} />
+      
         </PieChart>
       </div>
       <div className="CardContainer">

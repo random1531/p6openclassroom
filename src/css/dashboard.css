@@ -22,3 +22,22 @@
     font-weight: 500;
     font-size: 22px;
 }
+
+.graphobjectif{
+    display: flex;
+    flex-direction: column;
+    gap: 32px ;
+}
+
+.graphobjectif h3{
+font-family: Inter;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.graphobjectif p{
+     color: #707070;
+    font-family: Inter;
+font-weight: 400;
+font-size: 14px;
+}
